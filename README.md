@@ -1,12 +1,6 @@
 # ArduinoR4WiFi2TPLinkSmartPlug
 Arduino Library for R4 WiFi to control TP Link Kasa Smart Plug (Local Network mode)
 
-Below is a **complete, polished, GitHub‑ready README.md** for your new library **KasaLocalR4** — formatted exactly the way Arduino library maintainers expect, with badges, installation instructions, examples, protocol explanation, and API documentation.
-
-You can paste this directly into your GitHub repo as `README.md`.
-
----
-
 # KasaLocalR4  
 ### Local Network Control Library for TP‑Link Kasa Smart Plugs  
 ### Designed for **Arduino Uno R4 WiFi** and **WiFiS3‑based boards**
@@ -189,8 +183,6 @@ KasaLocalR4/
  └── LICENSE
 ```
 
----
-
 ## 🧪 Testing Your Device
 
 To verify your Kasa plug supports local control:
@@ -244,13 +236,23 @@ Feel free to add:
 
 ## ⭐ Acknowledgments
 
-This library is inspired by earlier ESP32‑based Kasa projects and re‑engineered for the Arduino Uno R4 WiFi ecosystem.
+This library is inspired by earlier TP Link Kasa and ESP32‑based Kasa projects.  
+I have re‑engineered the communication protocols for the Arduino Uno R4 WiFi ecosystem.
 
 Special thanks to:
 
-- Arduino Library for ESP32 to control TP Link Kasa Smart Plug (Local Network mode)
-                                          https://github.com/kj831ca/KasaSmartPlug/blob/main/README.md
-- **ArduinoJson** by Benoit Blanchon      https://arduinojson.org/?utm_source=meta&utm_medium=library.properties P
-- The Kasa reverse‑engineering community  https://www.softscheck.com/en/reverse-engineering-tp-link-hs110/ 
+- tplink-smartplug by softScheck
+      The Full Story: Reverse Engineering the TP-Link HS110
+          https://www.softscheck.com/en/reverse-engineering-tp-link-hs110/
+      TP-Link WiFi SmartPlug Client and Wireshark Dissector
+          https://github.com/softScheck/tplink-smartplug
+          
+- KasaSmartPlug by Kris Jearakul
+      Arduino Library for ESP32 to control TP Link Kasa Smart Plug (Local Network mode) 
+          https://github.com/kj831ca/KasaSmartPlug/blob/main/README.md
+  
+- **ArduinoJson** by Benoit Blanchon
+          https://arduinojson.org
+
 - Everyone who contributes device protocol logs
 
