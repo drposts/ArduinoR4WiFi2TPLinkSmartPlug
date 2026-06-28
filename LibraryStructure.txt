@@ -1,0 +1,12 @@
+KasaLocalR4/
+ ├── src/
+ │    ├── KasaLocalR4.h
+ │    ├── KasaLocalR4.cpp
+ │    └── utility/
+ │         └── KasaXor.h
+ ├── examples/
+ │    └── BasicControl/
+ │         └── BasicControl.ino
+ ├── library.properties
+ ├── README.md
+ └── LICENSE
