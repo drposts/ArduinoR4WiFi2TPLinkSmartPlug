@@ -1,6 +1,8 @@
 # ArduinoR4WiFi2TPLinkSmartPlug
 Arduino Library for R4 WiFi to control TP Link Kasa Smart Plug (Local Network mode)
 
+**06/28/2026:**  This is an under development library that I need to control a hydroponic tower water pump.  I plan to use a TP Link Kasa EP10 WiFi controlled Smart Plug to turn the punp on and off according to a schedule.  This is the control library for that project.  The full project application will be included as an example (when completed).
+
 # KasaLocalR4  
 ### Local Network Control Library for TP‑Link Kasa Smart Plugs  
 ### Designed for **Arduino Uno R4 WiFi** and **WiFiS3‑based boards**
